@@ -55,16 +55,54 @@
 #else:
     #print("both the number are same")
 
-gen = input("plz tell your gender as chracter (male or female)")
-if gen == "male":
-    print("good morning sir")
+#gen = input("plz tell your gender as chracter (male or female)")
+#if gen == "male":
+    #print("good morning sir")
 
-elif gen=="female":
-    print("good morning mam")
-else :
-    print("please fill your gender ")
-
+#elif gen=="female":
+    #print("good morning mam")
+#else :
+    #print("please fill your gender ")
     
+#integer = int(input("pleaseprovide a number"))
+#if integer%2 == 0:
+    #print("this is even number")
+#else:
+    #print("this is odd number")
+
+#Name = input("what is your name")
+#print(Name) 
+#Vote =  int(input("what is your age"))
+#if Vote >= 18:
+    #print(f"hellow {Name}! you are applicable for voting") 
+#else:
+    #print(f"hellow {Name}your not applicaple fo vote")
+
+#year = int(input("tell your year:"))
+#if (year % 400 == 0 and year % 4 == 0) or (year%100 != 0):
+   # print("its a leap year") 
+#else:
+    #print ("this is not year")
+
+
+
+#temperature question
+
+temperature = int(input("tell me a temperature of your room:-"))
+if temperature <0:
+    print("this is freezing cold i can help you ")
+elif temperature >=0 and temperature<=10:
+    print("very cold temperature in your room")
+elif temperature >=11 and temperature<=20:
+    print("this is cold temperature in your room")
+elif temperature >=21 and temperature<=30:
+    print("this is pleasent temerature in your room")
+elif temperature>=31 and temperature<=40:
+    print("this is hot temperature in your room")
+elif temperature>=40:
+    print("this is very hot tempearture how can help you")
+
+
 
 
 
