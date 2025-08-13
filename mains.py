@@ -112,11 +112,22 @@
     #print("This number is a prime number.")
 #else:
    # print("This is not a prime number.")
-a = "amrahs hsaka"
-b = ""
-for i in range(len(a)-1,-1,-1):
-    b = b+a[i]
-    print(a[i])
+#a = "amrahs hsaka"
+#b = ""
+#for i in range(len(a)-1,-1,-1):
+   # b = b+a[i]
+    #print(a[i])
+# while loop
+#a = 1 
+#while a <= 30:
+
+  #print(a)
+  #a = a+1
+
+#a = int(input("tell your number"))
+#while a >0:
+ # print(a%10)
+ #  a = a//10
 
 
 
