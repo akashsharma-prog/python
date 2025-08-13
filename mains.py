@@ -66,6 +66,6 @@ print(f"your sum is {sum}")
 n = int(input("Please tell your number: "))
 fact = 1
 for i in range(1, n + 1):
-    fact = fact * i  # multiply step by step
+    fact *= i  # multiply step by step
 
 print(f"Your factorial is {fact}")
