@@ -84,9 +84,42 @@
 
 #print(f"This is sum of odd and even numbers: odd = {odd}, even = {even}")
 #question 8
-n = int(input("which factor you want:-"))
-for i in range (1,n+1):
-   if n%i == 0:        
-     print(f"your factor of {i} ")
+#n = int(input("which factor you want:-"))
+#for i in range (1,n+1):
+   #if n%i == 0:        
+     #print(f"your factor of {i} ")
+
+#question 9
+
+#n = int(input("Check if your number is perfect or not: "))
+#sum_of_divisors = 0
+
+# only go up to n (exclusive)
+#for i in range(1, n+1):
+   # if n % i == 0 or n//i != 1 :
+        #sum_of_divisors += i
+#print(i)
+
+# question 10
+#n = int(input("Check if your number is prime or not: "))
+#count = 0
+
+#for i in range(1, n+1):
+   # if n % i == 0:
+       # count += 1
+
+#if count == 2:
+    #print("This number is a prime number.")
+#else:
+   # print("This is not a prime number.")
+a = "amrahs hsaka"
+b = ""
+for i in range(len(a)-1,-1,-1):
+    b = b+a[i]
+    print(a[i])
+
+
+
+       
 
 
