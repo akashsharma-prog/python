@@ -128,6 +128,21 @@
 #while a >0:
  # print(a%10)
  #  a = a//10
+# question 1
+a = int(input("Tell me your number: "))
+while a > 0:
+    print(a % 10)   # print the last digit
+    a = a // 10     # remove the last digit
+# question 2 
+a = int(input("tell me your number"))
+rev = 0
+while a > 0:
+    rev = rev *10+a%10
+    a = a //10
+    print(rev)
+
+      
+
 
 
 
